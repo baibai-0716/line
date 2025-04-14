@@ -30,8 +30,8 @@ import json
 
 app = Flask(__name__)
 
-configuration = Configuration(access_token='BbCY0Q0RqX5POPmr8TUIvapab2cMkcEH5oxbSYg6LCCo0UhwIKeioCZ7p3YlIUPgC5FHOATUHNrh2Z2FjEbn+bOfgVCBs4PGiyzuz6liPLzNfP64pA2BYj3HDXC8Jm6ArEXN08ehlr5XmzbajKj+pgdB04t89/1O/w1cDnyilFU=')
-line_handler = WebhookHandler('da08d2e751b306f20f2d7fc3160baec3')
+configuration = Configuration(access_token='填入Channel access token職')
+line_handler = WebhookHandler('填入Channel secret值')
 
 
 @app.route("/callback", methods=['POST'])
